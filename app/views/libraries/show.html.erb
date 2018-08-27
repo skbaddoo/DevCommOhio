@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @library.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @library.description %>
+</p>
+
+<p>
+  <strong>Link:</strong>
+  <%= @library.link %>
+</p>
+
+<p>
+  <strong>File upload:</strong>
+  <%= @library.file_upload.html_safe %>
+</p>
+
+<p>
+  <strong>Tags:</strong>
+  <%= @library.tags %>
+</p>
+
+<%= link_to 'Edit', edit_library_path(@library) %> |
+<%= link_to 'Back', libraries_path %>

@@ -3,8 +3,11 @@ body {
 }
 
 .navbar {
-    background: #33ff77;
-    color: #000000;
+    background:  #103d10;
+    color: white;
+}
+.nav {
+    color: white;
 }
 
 #center {
@@ -30,4 +33,13 @@ body {
 a:hover {
     background-color: #e5e9f9;
     cursor: pointer;
+}
+
+.navbar-brand {
+  padding: 0px; /* firefox bug fix */
+}
+.navbar-brand > img {
+    height: 100px;
+    width: 100px;
+    margin-top: -23px;
 }
