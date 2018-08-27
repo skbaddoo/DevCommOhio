@@ -1,0 +1,33 @@
+body {
+    background: #ccffdd;
+}
+
+.navbar {
+    background: #33ff77;
+    color: #000000;
+}
+
+#center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+
+.sign-up-link {
+    border: 3px solid #cfd7ff;
+    padding: 14px 0px;
+    margin: 2%;
+    display: inline-block;
+    text-align: center;
+    width: 250px;
+    border-radius: 100px;
+    color: #003311;
+    background-color: #85e085;
+}
+
+a:hover {
+    background-color: #e5e9f9;
+    cursor: pointer;
+}
