@@ -3,13 +3,18 @@ body {
 }
 
 .navbar {
-    background:  #103d10;
-    color: white;
-}
-.nav {
+    background:  #68a37b;
     color: white;
 }
 
+.navbar {
+    color: white;
+}
+
+.dropdown-menu {
+    background: #68a37b;
+    color: white;
+}
 #center {
     position: absolute;
     top: 50%;
@@ -43,3 +48,4 @@ a:hover {
     width: 100px;
     margin-top: -23px;
 }
+
