@@ -1,4 +1,5 @@
 class LibrariesController < ApplicationController
+  before_action #:require_signin!, only: [:new]
   before_action :set_library, only: [:show, :edit, :update, :destroy]
 
   # GET /libraries

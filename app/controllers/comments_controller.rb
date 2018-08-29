@@ -1,5 +1,5 @@
 class CommentsController < ApplicationController
-  before_action :require_signin!, only: [:new]
+  before_action #:require_signin!, only: [:new]
   before_action :set_comment, only: [:show, :edit, :update, :destroy]
 
   # GET /comments

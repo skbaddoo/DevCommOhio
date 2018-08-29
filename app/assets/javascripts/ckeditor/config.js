@@ -7,6 +7,26 @@ CKEDITOR.editorConfig = function(config) {
  config.filebrowserImageUploadUrl = "/ckeditor/pictures";
  config.filebrowserUploadUrl = "/ckeditor/attachment_files";
 
+config.toolbar_mini = [
+
+["Bold",  "Italic",  "Underline",  "Strike",  "-"],
+
+['BulletedList','NumberedList' ],['Outdent','Indent'],
+
+];
+
+config.toolbar = "mini";
+
+config.toolbarLocation = 'bottom';
+
+config.height = 280;
+
+config.width = 620;
+
+config.removePlugins = 'elementspath';config.removePlugins = 'elementspath';
+
+}
+
  config.toolbar_Pure = [
    '/', {
      name: 'basicstyles',
@@ -31,3 +51,4 @@ CKEDITOR.editorConfig = function(config) {
  config.toolbar = 'Pure';
  return true;
 }
+

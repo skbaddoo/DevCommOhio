@@ -1,4 +1,4 @@
-<%= form_with(model: post, local: true) do |form| %>
+<%= simple_form_for(@post) do |form| %>
   <% if post.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(post.errors.count, "error") %> prohibited this post from being saved:</h2>
@@ -27,7 +27,7 @@
 
   <div class="field">
     <%= form.label :entry %>
-    <%= cktext_area :file_upload, cols: 40 %>
+    <%= form.cktext_area :entry, cols: 40 %>
   </div>
 
   <div class="actions">

@@ -10,6 +10,8 @@ class TagsController < ApplicationController
   end
   
   def index
+    
+    
   
   end
 end
